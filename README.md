@@ -25,9 +25,11 @@ set paul hudak
 begin
 set andrew tanenbaum
 set yukihiro matsumoto
-numequalto torvalds #=> 1
+numequalto torvalds #=> 0
 numequalto tanenbaum #=> 1
 commit
+numequalto torvalds #=> 1
+numequalto tanenbaum #=> 1
 ```
 
 
